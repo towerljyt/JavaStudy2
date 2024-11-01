@@ -1,1 +1,28 @@
 Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6Inh2UGFKXzhMcHdISTRYZzAxR2lvaFdxbjNRaXc2MWQ4dXN3SmxBaFFQRk0iLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJjMGNhNjJiOS04ZDNlLTQ5YzAtYWI3Yi0zOThjODRjZTJjMWYiLCJpc3MiOiJodHRwczovL3VhdGNvcnBicm9rZXIuYjJjbG9naW4uY29tLzdmZmQzMTFkLWY3YzctNGE1NS1iNzZlLTk2YzUwYWNlZGUxMy92Mi4wLyIsImV4cCI6MTczMDQ0MzI5OSwibmJmIjoxNzMwNDQxNDk5LCJvaWQiOiJmMDhjMzQ2Ny0xZTQxLTQzY2ItOTBhYS01YWM4YmVlYmE5ZTMiLCJzdWIiOiJmMDhjMzQ2Ny0xZTQxLTQzY2ItOTBhYS01YWM4YmVlYmE5ZTMiLCJ0ZnAiOiJCMkNfMUFfY3Bfc2lnbl9pbl91YXQiLCJub25jZSI6IjAxOTJlNjU1LWQwN2QtNzE0Yi05YmFhLTIyODk4MGFmMjVkYSIsInNjcCI6IkNvcnAtcHRkcGxhdGZvcm0tdWF0LXdlYmFwcCIsImF6cCI6ImJkZTQ5ZjQ1LTBkNzYtNDJhOC04NzZjLTFjZTExNzE4NGZiNyIsInZlciI6IjEuMCIsImlhdCI6MTczMDQ0MTQ5OX0.J6vEWhXfCEyKqc70z2RC72e9fCaRvAZztUh_r0a0pQRuxdCQF9BU2L08b07fZubKMQXTikRGNs7EqnKTZUDfLqBTy23JBAbgYaQbBz6LBiGUJQkOcoDzizqPvMca5qKBsPC-rNh-N-8BFqIhHmw8RLEZzs0TcVkdQWlWZEqR86Juw2qHsdPjohV-W1oQfXzlIaw6CDMSYyjvfVy0Zr4xMwSwwVm9vjvkb5YXr7vSgVdeprDiwmK-yaA1C3aWHYvhTsaPF_DkZgEMVNFuIi2AN73dEQXv3g3yMhQ-oId5BEY395EUTD5XlomA39oeKGMRIhJ8w6d-KPMLNbEIYCbvzg
+UAT (Please remove below account in SIT and recreate in UAT)
+
+Life Code        Firm ID        Firm Name EN        Firm Name TC        Role        BOSS ID        Email Domain        First Name        Last Name
+0342530        0342530        
+CES xxxxxx xxxxxxxxxx xxxx LIMITED        
+CES xxxxxx xxxxxxxxxx xxxx LIMITED        companyAdmin        IFA-0342530        benye@deloitte.com.cn
+Company Admin        CES
+0342530        0342530        
+CES xxxxxx xxxxxxxxxx xxxx LIMITED        
+CES xxxxxx xxxxxxxxxx xxxx LIMITED        designatedAdmin        IFA-0342530-S001        lizhan@deloitte.com.cn
+Designated Admin        CES
+0371599        0371599        
+ONEPLATFORM xxxxxx xxxxxxxxxx LIMITED        
+ONEPLATFORM xxxxxx xxxxxxxxxx LIMITED        companyAdmin        IFA-0371599        suwong@deloitte.com.hk
+Company Admin        Oneplatform
+0371599        0371599        
+ONEPLATFORM xxxxxx xxxxxxxxxx LIMITED        
+ONEPLATFORM xxxxxx xxxxxxxxxx LIMITED        designatedAdmin        IFA-0371599-S020        ktsai@deloitte.com.hk
+Designated Admin        Oneplatform
+0401250        0401250        
+KINGKEY xxxxxxxxx xxxxxx xxxxxxxxxx LIMITED        
+KINGKEY xxxxxxxxx xxxxxx xxxxxxxxxx LIMITED        companyAdmin        IFA-0401250        matthew.lam.scs@ftlife.com.hk
+Company Admin        Kingkey
+0401250        0401250        
+KINGKEY xxxxxxxxx xxxxxx xxxxxxxxxx LIMITED        
+KINGKEY xxxxxxxxx xxxxxx xxxxxxxxxx LIMITED        designatedAdmin        IFA-0401250-S002        alden.shek@ftlife.com.hk
+Designated Admin        Kingkey
