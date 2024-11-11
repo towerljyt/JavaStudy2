@@ -1,7 +1,6 @@
-10:53:02.239 [http-nio-8080-exec-7] INFO  com.ey.api.service.DynamicsLogService [line:52] - activityLog:{"brokerName":"","lastNameEn":"Monday Test","firstNameEn":"TR to BOSS Gary","logType":"activityLog","informationType":"License Verification Status Trigger","activityDetail":"Trigger IA License Verification Process. Reason:  Profile data has been updated (by company admin)","email":"gary.sin.scs@ftlife.com.hk","createdDate":"Nov 11, 2024, 10:53:02 AM","lastUpdateDate":"Nov 11, 2024, 10:53:02 AM","delFlag":0,"_id":"6731718e9000a63389a511a2"}
-10:53:02.468 [http-nio-8080-exec-7] ERROR com.ey.api.util.OkHttpUtils [line:182] - Call API error code: 500 error msg: [{"msg":"System error. Please try again later.","code":"O00500"}]
-10:53:02.469 [http-nio-8080-exec-7] INFO  com.ey.api.remote.BaseRequest [line:154] - 
-==> URL: https://apigateway.uatctflife.com.hk/boss-uat2/api/service/api/trp/v1/users/createOrUpdate(boss:CreateOrUpdate)
-==> Header: {"Authorization":"eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJpc3MiOiJUUi1Qcm90YWwiLCJhdWQiOiJCT1NTIiwic3ViIjoiQ0EtMDM3NDQ1OCIsImV4cCI6MTczMjQ5MzU4MiwiaWF0IjoxNzMxMjkzNTgyfQ.G_5J4_0TAIyvpPqTmAk2d772aw83EtAXN2CLoJv3Nvo","Ocp-Apim-Subscription-Key":"4dd3de0975c0478d8321278a67e76909","Accept":"application/json","Content-Type":"application/json"}
-==> Request: {"actionType":"2","firmId":"0374458","bossId":"CA-0374458-00004","lastNameEn":"Monday Test","lastNameCn":"�眏撟喳蝱��峕郊","givenNameEn":"TR to BOSS Gary","licenseNumber":"AI1112","birthday":"11 11","contactAreaCode":"+852","contactEmail":"gary.sin.scs@ftlife.com.hk","autoAssignment":"Y","gender":"F"}
-==> Time: 202 ms
+IFA-0401250-00023	0401250	IFA-0401250	lilialiu@deloittecn.com.cn
+
+IFA-0342530-00024	0342530 	IFA-0342530 	simon.tse.scs@ftlife.com.hk 
+
+IFA-0371599-91127	0371599 	IFA-0371599 	jlyu@deloitte.com.cn
+
