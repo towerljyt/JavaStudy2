@@ -4,3 +4,4 @@ jason.hs.lau@hk.ey.com   Eyey2024!
 
 登录远端CICD：eyvendor03@ctflife.com.hk 密码Ctfl@12345
 mc3JdYW^mO
+12:37:01.742 [scheduling-1] INFO  com.ey.api.service.UserProfileImpl [line:4049] - update  userFrom:{"lastNameEn":"Friday Test","displayName":" ","firstNameEn":"BOSS TO TR","lastName":"","gender":"male","dateOfBirth":"15 11","mobilePhone":"11156666","email":"gary.sin.scs@ftlife.com.hk","saveStatus":1,"userRole":"TR","pwd":"09dcda1ecda081f46882025b8eec273c","lapfs":[],"mobilePhoneCountryCode":"852","teamLead":0,"enName":"Friday Test BOSS TO TR","bossId":"CA-0374458-00004","firmId":"0374458","adminUserId":"CA-0374458","bossAccountStatus":"InActive"}
