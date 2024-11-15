@@ -4,46 +4,41 @@ jason.hs.lau@hk.ey.com   Eyey2024!
 
 登录远端CICD：eyvendor03@ctflife.com.hk 密码Ctfl@12345
 mc3JdYW^mO
+13:01:00.283 [scheduling-1] INFO  com.ey.api.remote.BaseRequest [line:134] - 
 ==> URL: https://apigateway.uatctflife.com.hk/boss-uat2/api/service/api/trp/v1/users?&bossId=CA-0374458-00004(Boss:AccountInfo)
-==> Header: {"Authorization":"eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJpc3MiOiJUUi1Qcm90YWwiLCJhdWQiOiJCT1NTIiwiZXhwIjoxNzMyODQ1NDIwLCJpYXQiOjE3MzE2NDU0MjB9.hMu1KoFOHbe0Um_nzHTualIE8suT3Gguu965UKf4P1dF8QquuD8sLv_Ynb3SfEnim4NL2tf-d_syUjTf6BXxVw","Ocp-Apim-Subscription-Key":"4dd3de0975c0478d8321278a67e76909","Accept":"application/json","Content-Type":"application/json"}
+==> Header: {"Authorization":"eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJpc3MiOiJUUi1Qcm90YWwiLCJhdWQiOiJCT1NTIiwiZXhwIjoxNzMyODQ2ODYwLCJpYXQiOjE3MzE2NDY4NjB9.pCzYBtFYtholTIvevn9BOYoXwMCEar2zXrDrgaxnca_OOarhIxtK5yTDJ9kwW6GarPamFPb1gwQOzqC5wUOlZg","Ocp-Apim-Subscription-Key":"4dd3de0975c0478d8321278a67e76909","Accept":"application/json","Content-Type":"application/json"}
 ==> Request: 
 ==> Response: [{"birthday":"15/11","admin_user_id":"CA-0374458","gender":"M","bossId":"CA-0374458-00004","contactEmail":"gary.sin.scs@ftlife.com.hk","givenNameCn":"","accountType":"R","givenNameEn":"BOSS TO TR","smsNumber":"852-11156666","lastNameCn":"","lastNameEn":"Friday Test","firmId":"0374458","password":"09dcda1ecda081f46882025b8eec273c","license number":"AI1188","contactNumber":"11156666","contactAreaCode":"852","acccountStatus":"A"}]
-==> Time: 1625 ms
+==> Time: 257 ms
 
-12:37:01.742 [scheduling-1] INFO  com.ey.api.service.UserProfileImpl [line:4049] - update  userFrom:{"lastNameEn":"Friday Test","displayName":" ","firstNameEn":"BOSS TO TR","lastName":"","gender":"male","dateOfBirth":"15 11","mobilePhone":"11156666","email":"gary.sin.scs@ftlife.com.hk","saveStatus":1,"userRole":"TR","pwd":"09dcda1ecda081f46882025b8eec273c","lapfs":[],"mobilePhoneCountryCode":"852","teamLead":0,"enName":"Friday Test BOSS TO TR","bossId":"CA-0374458-00004","firmId":"0374458","adminUserId":"CA-0374458","bossAccountStatus":"InActive"}
-12:37:01.771 [scheduling-1] ERROR com.ey.api.job.BossNotifyJob [line:103] - ============================= Boss excuteSync error ===============================
-12:37:01.772 [scheduling-1] ERROR com.ey.api.job.BossNotifyJob [line:104] - Failed making field 'java.time.LocalDate#year' accessible; either increase its visibility or write a custom TypeAdapter for its declaring type.
-com.nimbusds.jose.shaded.gson.JsonIOException: Failed making field 'java.time.LocalDate#year' accessible; either increase its visibility or write a custom TypeAdapter for its declaring type.
-	at com.nimbusds.jose.shaded.gson.internal.reflect.ReflectionHelper.makeAccessible(ReflectionHelper.java:38)
-	at com.nimbusds.jose.shaded.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields(ReflectiveTypeAdapterFactory.java:286)
-	at com.nimbusds.jose.shaded.gson.internal.bind.ReflectiveTypeAdapterFactory.create(ReflectiveTypeAdapterFactory.java:130)
-	at com.nimbusds.jose.shaded.gson.Gson.getAdapter(Gson.java:556)
-	at com.nimbusds.jose.shaded.gson.internal.bind.ReflectiveTypeAdapterFactory.createBoundField(ReflectiveTypeAdapterFactory.java:160)
-	at com.nimbusds.jose.shaded.gson.internal.bind.ReflectiveTypeAdapterFactory.getBoundFields(ReflectiveTypeAdapterFactory.java:294)
-	at com.nimbusds.jose.shaded.gson.internal.bind.ReflectiveTypeAdapterFactory.create(ReflectiveTypeAdapterFactory.java:130)
-	at com.nimbusds.jose.shaded.gson.Gson.getAdapter(Gson.java:556)
-	at com.nimbusds.jose.shaded.gson.Gson.toJson(Gson.java:834)
-	at com.nimbusds.jose.shaded.gson.Gson.toJson(Gson.java:812)
-	at com.nimbusds.jose.shaded.gson.Gson.toJson(Gson.java:759)
-	at com.nimbusds.jose.shaded.gson.Gson.toJson(Gson.java:736)
-	at com.ey.api.service.UserProfileImpl.registerAccountBoss(UserProfileImpl.java:519)
-	at com.ey.api.service.UserProfileImpl.lambda$bossAccountSync$19(UserProfileImpl.java:4050)
+13:01:00.336 [scheduling-1] INFO  com.ey.api.service.UserProfileImpl [line:4046] - update  userFrom:{"lastNameEn":"Friday Test","displayName":" ","firstNameEn":"BOSS TO TR","lastName":"","gender":"male","dateOfBirth":"15 11","mobilePhone":"11156666","email":"gary.sin.scs@ftlife.com.hk","saveStatus":1,"userRole":"TR","pwd":"09dcda1ecda081f46882025b8eec273c","lapfs":[],"mobilePhoneCountryCode":"852","teamLead":0,"enName":"Friday Test BOSS TO TR","bossId":"CA-0374458-00004","firmId":"0374458","adminUserId":"CA-0374458","bossAccountStatus":"InActive"}
+13:01:00.357 [scheduling-1] INFO  com.ey.api.service.UserProfileImpl [line:515] - update  byUserId:UserProfile(email=gary.sin.scs@ftlife.com.hk, lastNameEn=Friday Test, firstNameEn=BOSS TO TR, displayName= , lastName=, firstName=null, gender=male, mobilePhone=11156666, businessPhone=null, country=null, dateOfBirth=15 11, iaLicenseNo=null, reportTo=null, productTypes=null, tier=null, accountSource=null, accountStatus=Active, bossId=CA-0374458-00004, companyName=null, userRole=TR, licenseVerificationStatus=Manual Passed, userId=d47f3987-7811-4e6c-883b-bffe2511ea23, preferredLanguage=null, createdDate=Fri Nov 08 18:27:54 CST 2024, lastVerificationDate=Fri Nov 15 11:16:28 CST 2024, createdName=Boss, lastUpdateDate=Fri Nov 15 11:47:35 CST 2024, lastUpdateName=null, loginAttemptCount=null, lockout=0, errCount=0, editStatus=0, trEditStatus=1, delFlag=0, _id=672de7aacf51cd26ae9b2c31, correspondencePreferredLanguage=null, correspondenceMobileNumber=null, autoPolicyAssignment=yes, accountStatusSort=5, licenseVerificationStatusSort=2, reason=3123, licenseName=null, licenseNo=null, licenseType=null, lineOfBusiness=null, licensePerStartDate=null, licensePerEndDate=null, businessAddress=null, tokenExpTime=1731642464, agentCode=null, teamId=null, teamLead=0, emailDomain=@ftlife.com.hk, mobilePhoneCountryCode=852, businessPhoneCountryCode=null, cspMobileNumberCountryCode=null, lifeCode=0374458, pwdExpirationDate=2025-02-13, b2cPwd=null, firmNameEn=null, firmNameCn=null, firmId=0374458, teamHeadCode=null, haveMpass=1, enName=Friday Test BOSS TO TR, cnName=null, lockByAdm=NO, admTeamMapNames=null, validForBusiness=null, caMonitoringLastUpdateDate=2024-11-13, caMonitoringReason=null, companyAdminId=CA-0374458, bossStatus=0)
+13:01:00.357 [scheduling-1] INFO  com.ey.api.b2c.graph.GraphServiceImpl [line:264] - ======================User id:d47f3987-7811-4e6c-883b-bffe2511ea23 start update b2c profile===========================
+13:01:01.004 [scheduling-1] WARN  com.azure.core.http.netty.implementation.Utility [line:293] - The following Netty dependencies have versions that do not match the versions specified in the azure-core-http-netty pom.xml file. This may result in unexpected behavior. If your application runs without issue this message can be ignored, otherwise please update the Netty dependencies to match the versions specified in the pom.xml file. Versions found in runtime: 'io.netty:netty-common' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-handler' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-handler-proxy' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-buffer' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-codec' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-codec-http' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-codec-http2' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-transport-native-unix-common' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-transport-native-epoll' version: 4.1.72.Final (expected: 4.1.101.Final),'io.netty:netty-transport-native-kqueue' version: 4.1.72.Final (expected: 4.1.101.Final)
+13:01:01.785 [Thread-1] WARN  com.microsoft.aad.msal4j.ConfidentialClientApplication [line:98] - [Correlation ID: 3ea599d7-416c-4276-b709-99559bcb98e9] Execution of class com.microsoft.aad.msal4j.AcquireTokenSilentSupplier failed: Token not found in the cache
+13:01:02.178 [scheduling-1] INFO  com.azure.identity.ClientSecretCredential [line:569] - Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+13:01:02.743 [scheduling-1] INFO  com.azure.identity.ClientSecretCredential [line:569] - Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+13:01:03.098 [scheduling-1] ERROR com.ey.api.job.BossNotifyJob [line:103] - ============================= Boss excuteSync error ===============================
+13:01:03.098 [scheduling-1] ERROR com.ey.api.job.BossNotifyJob [line:104] - Property displayName is invalid.
+com.microsoft.graph.models.odataerrors.ODataError: Property displayName is invalid.
+	at com.microsoft.graph.models.odataerrors.ODataError.createFromDiscriminatorValue(ODataError.java:36)
+	at com.microsoft.kiota.serialization.JsonParseNode.getObjectValue(JsonParseNode.java:212)
+	at com.microsoft.kiota.http.OkHttpRequestAdapter.lambda$throwIfFailedResponse$0(OkHttpRequestAdapter.java:674)
+	at com.microsoft.kiota.ApiExceptionBuilder.<init>(ApiExceptionBuilder.java:26)
+	at com.microsoft.kiota.http.OkHttpRequestAdapter.throwIfFailedResponse(OkHttpRequestAdapter.java:673)
+	at com.microsoft.kiota.http.OkHttpRequestAdapter.send(OkHttpRequestAdapter.java:281)
+	at com.microsoft.graph.users.item.UserItemRequestBuilder.patch(UserItemRequestBuilder.java:779)
+	at com.microsoft.graph.users.item.UserItemRequestBuilder.patch(UserItemRequestBuilder.java:763)
+	at com.ey.api.b2c.graph.GraphServiceImpl.updateB2cUser(GraphServiceImpl.java:298)
+	at com.ey.api.service.UserProfileImpl.registerAccountBoss(UserProfileImpl.java:521)
+	at com.ey.api.service.UserProfileImpl.lambda$bossAccountSync$19(UserProfileImpl.java:4047)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.ey.api.service.UserProfileImpl.bossAccountSync(UserProfileImpl.java:3994)
+	at com.ey.api.service.UserProfileImpl.bossAccountSync(UserProfileImpl.java:3991)
 	at com.ey.api.job.BossNotifyJob.lambda$excuteSync$4(BossNotifyJob.java:101)
 	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
 	at com.ey.api.job.BossNotifyJob.excuteSync(BossNotifyJob.java:99)
 	at com.ey.api.job.BossNotifyJob.execute(BossNotifyJob.java:82)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
-	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)04)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
