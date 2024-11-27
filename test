@@ -1,23 +1,8 @@
-IFA-0344915-00016  dy_tr_test_004@sina.com
+登录远端CICD：eyvendor03@ctflife.com.hk 密码mc3JdYW^mO
 
-jason.hs.lau@hk.ey.com   Eyey2024!
 
-登录远端CICD：eyvendor03@ctflife.com.hk 密码Ctfl@12345
-mc3JdYW^mO
-13:01:00.283 [scheduling-1] INFO  com.ey.api.remote.BaseRequest [line:134] - 
-==> URL: https://apigateway.uatctflife.com.hk/boss-uat2/api/service/api/trp/v1/users?&bossId=CA-0374458-00004(Boss:AccountInfo)
-==> Header: {"Authorization":"eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJpc3MiOiJUUi1Qcm90YWwiLCJhdWQiOiJCT1NTIiwiZXhwIjoxNzMyODQ2ODYwLCJpYXQiOjE3MzE2NDY4NjB9.pCzYBtFYtholTIvevn9BOYoXwMCEar2zXrDrgaxnca_OOarhIxtK5yTDJ9kwW6GarPamFPb1gwQOzqC5wUOlZg","Ocp-Apim-Subscription-Key":"4dd3de0975c0478d8321278a67e76909","Accept":"application/json","Content-Type":"application/json"}
-==> Request: 
-==> Response: [{"birthday":"15/11","admin_user_id":"CA-0374458","gender":"M","bossId":"CA-0374458-00004","contactEmail":"gary.sin.scs@ftlife.com.hk","givenNameCn":"","accountType":"R","givenNameEn":"BOSS TO TR","smsNumber":"852-11156666","lastNameCn":"","lastNameEn":"Friday Test","firmId":"0374458","password":"09dcda1ecda081f46882025b8eec273c","license number":"AI1188","contactNumber":"11156666","contactAreaCode":"852","acccountStatus":"A"}]
-==> Time: 257 ms
- - -------------license number:JC7424
-18:49:40.646 [http-nio-8080-exec-10] INFO  com.ey.api.service.LicenseVerificationService [line:169] - License verification By IA Website result:{"code":200,"data":{"licenseNo":"JC7424","engName":"LAU Jason Wai Kan","chiName":"��厩�见𠹻","licenseStatus":"A","licenseStartDate":"2021-03-10","licenseEndDate":"2027-03-09","licenseType":"TRA","businessEngAddress":"1 Queen's Road Central, Hong Kong","businessChiAddress":"1 Queen's Road Central, Hong Kong","eligibleLob":"G + L(X)","licenseRecords":[{"type":"TRA","startDate":"2022-02-11","endDate":"2023-08-14","licenseStatus":"A","licensePeriodStart":"2021-03-10","licensePeriodEnd":"2027-03-09","displayParentLicenseNo":"FA3000","appointing":"DBS BANK (HONG KONG) LIMITED","appointingChi":"��笔�閖�銵�(擐蹱葛)��厰�𣂼�砍虬","lineBusiness":"General & Long Term Business (excluding Linked Long Term Business)"}],"appointments":[{"appointingDate":"2023-10-25","appointingChi":"擐蹱葛銝𦠜絲皛躰�鞾�銵峕�厰�𣂼�砍虬","appointingEn":"THE HONGKONG AND SHANGHAI BANKING CORPORATION LTD","lineBusiness":"Long Term Business (excluding Linked Long Term Business)"}]},"msg":""}
-18:49:40.648 [http-nio-8080-exec-10] INFO  com.ey.api.service.LicenseVerificationService [line:143] - ------------engName: LAU Jason Wai Kan
-18:49:40.675 [http-nio-8080-exec-10] INFO  com.ey.api.service.DynamicsLogService [line:52] - activityLog:{"brokerName":"THE HONGKONG AND SHANGHAI BANKING CORPORATION LTD","lastNameEn":"","firstNameEn":"","logType":"activityLog","informationType":"Notification Center","activityDetail":"Jason Wai Kan LAU account does not passed license verification. Please review and provide action through Account Management.","email":"abcd123@yahoo.com.hk","createdDate":"Nov 21, 2024, 6:49:40 PM","lastUpdateDate":"Nov 21, 2024, 6:49:40 PM","delFlag":0,"_id":"673f1044391c6f481b2b8575"}
-18:49:40.685 [http-nio-8080-exec-10] INFO  com.ey.api.service.DynamicsLogService [line:52] - activityLog:{"brokerName":"THE HONGKONG AND SHANGHAI BANKING CORPORATION LTD","lastNameEn":"","firstNameEn":"","logType":"activityLog","informationType":"Notification Center","activityDetail":"Jason Wai Kan LAU account does not passed license verification. Please review and provide action through Account Management.","email":"xxxxxxxxxxx@yahoo.com.hk","createdDate":"Nov 21, 2024, 6:49:40 PM","lastUpdateDate":"Nov 21, 2024, 6:49:40 PM","delFlag":0,"_id":"673f1044391c6f481b2b8576"}
-18:49:40.699 [http-nio-8080-exec-10] INFO  com.ey.api.service.DynamicsLogService [line:52] - activityLog:{"brokerName":"","lastNameEn":"LAU","firstNameEn":"Jason Wai Kan","logType":"activityLog","informationType":"License Verification Status Update","activityDetail":"License Verification Status Update:Not passed-\u003eNot passed","email":"jason.hs.lau@hk.ey.com","createdDate":"Nov 21, 2024, 6:49:40 PM","lastUpdateDate":"Nov 21, 2024, 6:49:40 PM","delFlag":0,"_id":"673f1044391c6f481b2b8577"}
-18:49:40.704 [http-nio-8080-exec-10] INFO  com.ey.api.service.DynamicsLogService [line:52] - activityLog:{"brokerName":"","lastNameEn":"LAU","firstNameEn":"Jason Wai Kan","logType":"activityLog","informationType":"Lic
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
-	at com.nimbusds.jose.shaded.gson.internal.reflect.ReflectionHelper.makeAccessible(ReflectionHelper.java:35)
-	... 32 common frames omitted
+IFA-0342530-S001  lizhan@deloitte.com.cn  !Test123456 
+
+IFA-0401250-S002  alden.shek@ftlife.com.hk  !Test123456 
+
+IFA-0371599-S020   ktsai@deloitte.com.hk   !Test123456 
