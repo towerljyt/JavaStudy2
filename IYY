@@ -1,1 +1,6 @@
-https://uatcorpbroker.b2clogin.com/uatcorpbroker.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_cp_reset_password_uat&client_id=bde49f45-0d76-42a8-876c-1ce117184fb7&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fptdplatform-uat.azureedge.net%2Fmodify&scope=openid&response_type=code&prompt=login&code_challenge=5c79f9f5502744ecb9a6b3a7990f72a4&reset_password_scene=sign_up&hint=202412@cn.ey.com&ui_locales=langCode
+iPartner_PTD_01@hotmail.com   ADMIN
+iPartner_PTD_02@hotmail.com  MULTIPLE_ADMIN
+iPartner_PTD_03@hotmail.com  MULTIPLE_ADMIN
+iPartner_PTD_04@hotmail.com  DESIGNATED_ADMIN
+iPartner_PTD_05@hotmail.com  TR
+iPartner_PTD_06@hotmail.com TR  
