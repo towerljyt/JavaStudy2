@@ -6,3 +6,5 @@ ptdplatform_user002@uatctflife.com.hk
 Cuja462943
 account: IFA-0334367 Pass1234
 uat@uatctflife.com.hk
+INSERT INTO `dch_merchandiser_p`.`mch_payment_collection`(`id`, `code`, `description`, `user_group_id`, `start_date`, `end_date`, `create_by`, `create_time`, `updated_by`, `updated_time`, `active`, `del_flag`) VALUES (1867828751748825088, 'testPaymentCollection', 'testPaymentCollection', 1602193456032120832, '2024-12-04', '2024-12-21', 'rick.liu@cn.ey.com', '2024-12-14 15:07:32', 'rick.liu@cn.ey.com', '2024-12-14 15:07:32', 1, '0');
+INSERT INTO `dch_merchandiser_p`.`mch_payment_collection`(`id`, `code`, `description`, `user_group_id`, `start_date`, `end_date`, `create_by`, `create_time`, `updated_by`, `updated_time`, `active`, `del_flag`) VALUES (1867830315930615808, '12313123', '123', 1602193456032120832, '2024-12-04', '2024-12-21', 'rick.liu@cn.ey.com', '2024-12-14 15:13:45', 'rick.liu@cn.ey.com', '2024-12-14 15:13:45', 1, '0');
