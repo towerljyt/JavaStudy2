@@ -59,4 +59,9 @@ FROM (
              mrpct.active=1 AND
              mrpct.check_status=1 AND
              mrpct.user_group_id=1602193456032120832
+
      )t
+
+
+
+ALTER TABLE mch_routine_product_check_template MODIFY (check_status TINYINT(3) DEFAULT 1);  
