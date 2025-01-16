@@ -4,8 +4,16 @@ https://iPartner.ctflife.com.hk/home
 https://ptdplatform-uat.azureedge.net/tutorial/
 TR打开 :https://ptdplatform-uat.azureedge.net/tutorial/trMenu
 非TR打开 :https://ptdplatform-uat.azureedge.net/tutorial/otherMenu
+
+UAT:
 companyAdmin    adm@dynastygroup.com.hk
 designatedAdmin   desadm@dynastygroup.com.hk
 multipleAdmin   mteadm@dynastygroup.com.hk
 CTFLIFE_DSS  dssadm@dynastygroup.com.hk
 CTFLIFE_PDADM  pdadm@dynastygroup.com.hk
+
+SIT:                                                                                                                                                                                                                                                                                                                                                                                                    ADMIN  adm0116@cn.ey.com                                                                                                                                                                                                                                                                                                                                                                          DESIGNATED_ADMIN desadm0116@cn.ey.com
+MULTIPLE_ADMIN  mtadm0116@cn.ey.com
+CTFLIFE_PDADM pdadm0116@cn.ey.com
+CTFLIFE_DSS dssadm0116@cn.ey.com
+TR  tr0116@cn.ey.com 
