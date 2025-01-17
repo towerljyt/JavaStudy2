@@ -18,3 +18,6 @@ Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6Inh2UGFKXzhMcHdISTRYZzAxR2lvaFdxbjNRaXc2MWQ4d
 https://uatcorpbroker.b2clogin.com/uatcorpbroker.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_cp_reset_password&client_id=0c3689f3-e952-4ac3-9c0d-991dcfdaf730&nonce=defaultNonce&redirect_uri=https://ptdpformstoragesiteas01.z7.web.core.windows.net/modify&scope=openid&response_type=code&prompt=login&code_challenge=e239463ef81546a89d223cffa4a5116d&reset_password_scene=sign_up&hint=bocai@cn.ey.com&ui_locales=langCode
 
 https://uatcorpbroker.b2clogin.com/uatcorpbroker.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_cp_reset_password&client_id=0c3689f3-e952-4ac3-9c0d-991dcfdaf730&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fptdpformstoragesiteas01.z7.web.core.windows.net%2Fmodify&scope=openid&response_type=code&prompt=login&code_challenge=54d7ec3334774fd996151e29f56ef2bc&reset_password_scene=sign_up&hint=ceshi22@cn.ey.com&ui_locales=langCode
+
+
+https://cicd.uatctflife.com.hk/job/ptdplatform/job/ptdplatform-platform-backend/view/change-requests/
