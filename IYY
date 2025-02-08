@@ -1,6 +1,6 @@
 https://uatcorpbroker.b2clogin.com/uatcorpbroker.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_cp_reset_password_uat&client_id=bde49f45-0d76-42a8-876c-1ce117184fb7&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fptdplatform-uat.azureedge.net%2Fmodify&scope=openid&response_type=code&prompt=login&code_challenge=4026e1b0fdbe4fcbba75624149dccb65&reset_password_scene=sign_up&hint=tr0117@163.com&ui_locales=langCode
-SIT: ptdplatformsit.uatctflife.com.hk
-UAT: ptdplatform.uatctflife.com.hk 
+SIT: ptdplatformsit.uatctflife.com.hk/home
+UAT: ptdplatform.uatctflife.com.hk/home 
 https://iPartner.ctflife.com.hk/home
 https://ptdplatform-uat.azureedge.net/tutorial/
 TR打开 :https://ptdplatform-uat.azureedge.net/tutorial/trMenu
