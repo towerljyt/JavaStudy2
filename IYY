@@ -1,4 +1,4 @@
-https://uatcorpbroker.b2clogin.com/uatcorpbroker.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_cp_reset_password_uat&client_id=bde49f45-0d76-42a8-876c-1ce117184fb7&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fptdplatform-uat.azureedge.net%2Fmodify&scope=openid&response_type=code&prompt=login&code_challenge=ab5a4c7885af4dd69306b9be7d108f41&reset_password_scene=sign_up&hint=zixun_hjk@cn.ey.com&ui_locales=langCode
+https://uatcorpbroker.b2clogin.com/uatcorpbroker.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_cp_reset_password_uat&client_id=bde49f45-0d76-42a8-876c-1ce117184fb7&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fptdplatform-uat.azureedge.net%2Fmodify&scope=openid&response_type=code&prompt=login&code_challenge=ab35fa37fd6a4f3289cb92965a79a676&reset_password_scene=sign_up&hint=shiqi@cn.ey.com&ui_locales=langCode
 SIT: ptdplatformsit.uatctflife.com.hk/home
 UAT: ptdplatform.uatctflife.com.hk/home 
 https://iPartner.ctflife.com.hk/home
