@@ -27,3 +27,10 @@ TR  tr0116@cn.ey.com
 https://uatcorpbroker.b2clogin.com/uatcorpbroker.onmicrosoft.com/b2c_1a_cp_sign_in_uat/oauth2/v2.0/authorize?client_id=bde49f45-0d76-42a8-876c-1ce117184fb7&scope=openid%20https%3A%2F%2Fuatcorpbroker.onmicrosoft.com%2Fc0ca62b9-8d3e-49c0-ab7b-398c84ce2c1f%2FCorp-ptdplatform-uat-webapp%20profile%20offline_access&redirect_uri=https%3A%2F%2Fptdplatform-uat.azureedge.net%2Fhome&client-request-id=01947363-26ee-77b2-a10a-5f49d8c34295&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=3.28.0&client_info=1&code_challenge=E7h42rsmrQtsABblz2aUEZidv4n9TCz9pres_Yr12Xo&code_challenge_method=S256&nonce=01947363-26ef-745a-8c65-163a33470471&state=eyJpZCI6IjAxOTQ3MzYzLTI2ZWUtN2IyOS1hNTk2LTBlNjYyOTZhZTQ1YSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&ui_locales=en
 https://lifecompany.atlassian.net/jira/software/c/projects/PDT/boards/167?selectedIssue=PDT-1615
 https://apigateway.uatctflife.com.hk/docucenter-sit/api/general/docucentre/api/document/
+{
+    "currentPwd": "823da4223e46ec671a10ea13d7823534",
+    "currentPwdText": "Pass1234",
+    "newPwd": "c74c1b63925854ac347fa23707baaa1e",
+    "confPwd": "c74c1b63925854ac347fa23707baaa1e",
+    "newPwdText": "@Pass1234"
+}
